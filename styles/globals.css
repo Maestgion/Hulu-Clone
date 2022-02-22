@@ -5,6 +5,13 @@
 @layer base {
   body {
     @apply bg-[#06202A] text-gray-300
+   
     /* We are making use of just in time compiler here, it is just by passing the colour pallete and telling JIT to add the custom class as we want ot add the custom colour in the utilities. */;
+  }
+}
+
+@layer utilities {
+  body {
+    @apply scrollbar-hide;
   }
 }
